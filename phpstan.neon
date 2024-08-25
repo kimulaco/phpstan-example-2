@@ -1,0 +1,8 @@
+parameters:
+  level: 9
+  paths:
+    - "app"
+  excludePaths:
+    - "vendor/*"
+  bootstrapFiles:
+    - "bootstrap_phpstan.php"

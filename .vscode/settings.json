@@ -1,0 +1,9 @@
+{
+    "phpstan.singleFileMode": true,
+    "phpstan.binPath": "vendor/bin/phpstan",
+    "phpstan.binCommand": ["docker", "compose", "exec", "php", "vendor/bin/phpstan"],
+    "phpstan.options": ["-c", "phpstan.neon"],
+    "phpstan.paths": {
+        "${workspaceFolder}/app": "/var/www/html/app",
+    },
+}
